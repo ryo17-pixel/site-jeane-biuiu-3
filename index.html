@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músico Profissional — Carreira, Arte e Mercado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">♪</div>
+                <span>Som & <strong>Carreira</strong></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
+
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#sobre">O que faz</a></li>
+                    <li><a href="#areas">Áreas de Atuação</a></li>
+                    <li><a href="#formacao">Formação & Mercado</a></li>
+                    <li><a href="#estudio">Estúdio Interativo</a></li>
+                    <li><a href="#quiz">Teste Vocacional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">Guia de Profissões Criativas</span>
+                <h1>A Arte e a Ciência de ser <span>Músico Profissional</span></h1>
+                <p>Muito além dos palcos: descubra como transformar paixão sonora em uma carreira sustentável nos estúdios, no audiovisual, na educação, na tecnologia e na saúde.</p>
+                <div class="hero-buttons">
+                    <a href="#areas" class="btn btn-primary">Explorar Carreiras</a>
+                    <a href="#estudio" class="btn btn-outline">Testar Sintetizador</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="studio-card">
+                    <div class="equalizer" aria-hidden="true">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <h3 style="margin-bottom: 0.5rem;">Ecossistema Musical</h3>
+                    <p style="color: var(--text-muted); font-size: 0.92rem;">A indústria fonográfica e de música ao vivo movimenta bilhões anualmente no Brasil e no mundo.</p>
+                    <div class="stats-mini">
+                        <div class="stat-item">
+                            <h4>+50</h4>
+                            <span>Especialidades</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Top 10</h4>
+                            <span>Mercado Global (BR)</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100%</h4>
+                            <span>Multidisciplinar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Profissão -->
+    <section id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que faz um Músico Profissional?</h2>
+                <p>Ser músico profissional significa dominar técnicas de execução, teoria musical, criação e negócios para atuar comercialmente no setor cultural.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="icon-box">🎼</div>
+                    <h3>Criação & Arranjo</h3>
+                    <p>Composição de obras originais, harmonização, orquestração e adaptação de músicas para diferentes formações instrumentais e vocais.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="icon-box">🎙️</div>
+                    <h3>Performance & Gravação</h3>
+                    <p>Execução ao vivo em shows, teatros e orquestras, além de gravações em estúdio como músico de sessão (sideman) para artistas e marcas.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="icon-box">💼</div>
+                    <h3>Gestão & Negócios</h3>
+                    <p>Registro de direitos autorais (ECAD/UBC), distribuição digital em plataformas de streaming, gestão de carreira e produção executiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas de Atuação -->
+    <section id="areas" style="background: rgba(255,255,255,0.015);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Principais Áreas de Atuação</h2>
+                <p>Clique em qualquer especialidade para conhecer o dia a dia, habilidades exigidas e oportunidades de mercado.</p>
+            </div>
+
+            <div class="careers-grid" id="careersGrid">
+                <!-- Preenchido dinamicamente pelo JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação e Remuneração -->
+    <section id="formacao">
+        <div class="container">
+            <div class="section-header">
+                <h2>Formação e Panorama de Mercado</h2>
+                <p>Caminhos educacionais e estimativas de ganhos no mercado brasileiro.</p>
+            </div>
+
+            <div class="market-grid">
+                <div class="info-box">
+                    <h3>🎓 Caminhos de Formação</h3>
+                    <ul class="timeline-list">
+                        <li>
+                            <strong>Conservatórios e Escolas Técnicas</strong>
+                            <span>Formação prática intensiva em instrumento, percepção musical e prática de conjunto (nível técnico).</span>
+                        </li>
+                        <li>
+                            <strong>Bacharelado em Música</strong>
+                            <span>Foco em performance (instrumento/canto), composição, regência ou produção musical (4 anos).</span>
+                        </li>
+                        <li>
+                            <strong>Licenciatura em Música</strong>
+                            <span>Habilita o profissional a lecionar na educação básica, escolas especializadas e projetos sociais.</span>
+                        </li>
+                        <li>
+                            <strong>Registro Profissional (OMB)</strong>
+                            <span>A Ordem dos Músicos do Brasil e sindicatos regionais oferecem suporte jurídico e registro formal da categoria.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h3>💰 Faixas de Remuneração (Média Brasil)</h3>
+                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 1.5rem;">Os ganhos variam conforme experiência, região, porte dos eventos e royalties autorais.</p>
+
+                    <div class="salary-bar">
+                        <div class="salary-header">
+                            <span>Iniciante / Cachês Locais & Aulas</span>
+                            <strong>R$ 2.000 – R$ 3.800/mês</strong>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="width: 35%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="salary
